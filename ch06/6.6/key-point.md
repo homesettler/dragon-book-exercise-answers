@@ -43,5 +43,5 @@
 ### 语法制导的定义
 产生式|语义规则
 -----|-------
-P->S | S.next = newlabel()<br>P.code = S.code || label(s.next) |
+P->S | S.next = newlabel()<br>P.code = S.code '||' label(s.next) |
 
