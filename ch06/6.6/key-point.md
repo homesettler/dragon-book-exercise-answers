@@ -41,13 +41,7 @@
     B.next： S执行完毕时的跳转目标
     
 ### 语法制导的定义
-<table>
-  <tr>
-    <th>产生式</th>
-    <th>语义规则</th>
-  </tr>
-  <tr>
-    <th> p->S </th>
-    <th> s.next = newlabel()\n p.code = s.code ||label(S.next)</th>
-  </tr>
-</table>
+产生式|语义规则
+-----|-------
+P->S | S.next = newlabel()<br>P.code = S.code || label(s.next) |
+
