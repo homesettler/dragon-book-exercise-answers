@@ -43,7 +43,11 @@
 ### 语法制导的定义
 <table>
   <tr>
-    <th>产生式<\th>
-    <th>语义规则<\th>
+    <th>产生式</th>
+    <th>语义规则</th>
   </tr>
-<table>
+  <tr>
+    <th> p->S </th>
+    <th> s.next = newlabel()\n p.code = s.code ||label(S.next)</th>
+  </tr>
+</table>
